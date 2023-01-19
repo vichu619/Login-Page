@@ -1,0 +1,23 @@
+<header>
+    <nav class="navbar header text-white">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white">Samsung Store</a>
+    <form class="d-flex" action="/logout" method="get">
+      <button class="btn log-out btn-danger" type="submit" >log out</button>
+    </form>
+  </div>
+</nav>
+</header>
+<div class="container-fluid">
+    <div class="row ms-5 ">
+        {{#each product}}
+        <div class="card ms-5 mt-5" style="width: 18rem;" id="tay">
+            <img class="card-img-top" src="{{this.img}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-ligh"  style="color: red;">{{this.name}}</h5>
+                <a href="#" class="btn btn-dark btn-cart">ADD TO CART</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

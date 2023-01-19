@@ -1,0 +1,23 @@
+body {
+  background-image: url(https://th.bing.com/th/id/OIP.wB-ZZkfJXGugx_lJsrzYnQHaDu?w=310&h=176&c=7&r=0&o=5&pid=1.7);
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* a {
+  color: #00B7FF;
+} */
+.header{
+  background-color: black;
+}
+.btn.btn-cart:hover{
+  background-color: rgb(92, 87, 88);
+  color: black;
+}
+.btn.log-out:hover{
+  background-color: black;
+  color: white;
+}
+#tay{
+  background-color: rgb(48, 48, 48);
+}
+
